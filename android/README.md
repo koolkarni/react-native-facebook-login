@@ -30,6 +30,11 @@ dependencies {
 
 ```java
 ...
+import java.util.Arrays;
+import com.magus.fblogin.FacebookLoginPackage;
+import com.facebook.react.shell.MainReactPackage;
+import com.facebook.react.ReactActivity;
+import com.facebook.react.ReactPackage;
 import com.magus.fblogin.FacebookLoginPackage; // <--- import
 
 public class MainActivity extends ReactActivity {
